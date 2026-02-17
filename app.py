@@ -18,7 +18,7 @@ st.set_page_config(
 )
 
 # =====================================================
-# 🎨 ESTILO OSCURO PREMIUM
+# 🎨 Poniendo color oscuros
 # =====================================================
 
 st.markdown("""
@@ -81,7 +81,7 @@ pagina = st.sidebar.selectbox(
 )
 
 # =====================================================
-# 🏠 INICIO
+# 🏠 Pantalla principal
 # =====================================================
 
 if pagina == "🏠 Inicio":
@@ -186,7 +186,7 @@ elif pagina == "2️⃣ Ejercicio 2":
         st.dataframe(df)
 
 # =====================================================
-# 📘 EJERCICIO 3 – PROGRAMACIÓN FUNCIONAL
+# 📘 EJERCICIO 3
 # =====================================================
 
 elif pagina == "3️⃣ Ejercicio 3":
@@ -239,7 +239,7 @@ elif pagina == "3️⃣ Ejercicio 3":
             st.write(f"**{r['nombre']}** → Inversión: S/{r['monto']:,.0f} | Retorno: S/{r['retorno']:,.0f}")
 
 # =====================================================
-# 📘 EJERCICIO 4 – POO
+# 📘 EJERCICIO 4
 # =====================================================
 
 elif pagina == "4️⃣ Ejercicio 4":
